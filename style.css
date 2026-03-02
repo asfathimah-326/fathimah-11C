@@ -155,4 +155,118 @@ form button{
 
 form button:hover{
     background-color: #2980b9;
+
 }
+body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color:  #EAE0CF;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #130404;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: black;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #EAE0CF;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+ body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            background-color: #EAE0CF;
+        }
+
+        header p {
+            margin-top: 12px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .event-card {
+            background: white;
+            border-radius: 14px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+        }
+
+        .event-card h2 {
+            color: #1c2b4a;
+            margin-top: 0;
+        }
+
+        .event-date {
+            font-style: italic;
+            color: #2e4f8a;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #b08d2f;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #f2f2f2;
+            margin-top: 50px;
+            font-size: 14px;
+        }       
